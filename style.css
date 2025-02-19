@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "Roboto", serif;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+}
