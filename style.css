@@ -6,7 +6,7 @@ body {
     font-family: "Roboto", serif;
 }
 
-.header, .footer {
+.header, .footer, .introductory-section {
     background-color: #1F2937;
     color: white;
 }
@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 18px;
+    padding: 18px 120px;
     row-gap: 18px;
 }
 
@@ -40,3 +40,46 @@ body {
     font-size: 24px;
     flex: none;
 }
+
+.introductory-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 120px;
+    gap: 48px;
+}
+
+.introductory-section img {
+    width: 100%;
+}
+
+.introductory-text {
+    flex: 1;
+}
+
+.introductory-image {
+    flex: 1;
+    min-width: 200px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.introductory-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.introductory-section button {
+    font-size: 18px;
+    color: white;
+    background-color: #3882f6;
+    padding: 9px 36px;
+    border-radius: 10px;
+    border-style: none;
+}
+
