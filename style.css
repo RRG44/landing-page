@@ -6,6 +6,10 @@ body {
     font-family: "Roboto", serif;
 }
 
+.section {
+    padding: 18px 120px;
+}
+
 .header, .footer, .introductory-section {
     background-color: #1F2937;
     color: white;
@@ -16,7 +20,6 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 18px 120px;
     row-gap: 18px;
 }
 
@@ -83,3 +86,39 @@ h1 {
     border-style: none;
 }
 
+.information-section {
+    text-align: center;
+    font-size: 18px;
+}
+
+.information-section h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.information-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.image-card {
+    width: min-content;
+}
+
+.image-card p {
+    margin: 0;
+    color: #1F2937;
+}
+
+.information-images img {
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #3882f6;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+}
