@@ -10,3 +10,33 @@ body {
     background-color: #1F2937;
     color: white;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 18px;
+    row-gap: 18px;
+}
+
+.header-links ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    gap: 18px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header .logo {
+    color: #f9faf8;
+    font-size: 24px;
+    flex: none;
+}
