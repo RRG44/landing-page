@@ -161,3 +161,8 @@ button {
     border-color: white;
     border-style: solid;
 }
+
+.footer {
+    text-align: center;
+    align-items: center;
+}
