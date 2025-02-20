@@ -76,7 +76,7 @@ h1 {
     color: #e5e7eb;
 }
 
-.introductory-section button {
+button {
     font-size: 18px;
     color: white;
     background-color: #3882f6;
@@ -125,7 +125,6 @@ h1 {
 
 .quote-section {
     background-color: #e5e7eb;
-    font-style: italic;
 }
 
 .quote-section div {
@@ -134,10 +133,31 @@ h1 {
 
 .quote-section .quote {
     font-size: 36px;
+    font-style: italic;
 }
 
 .quote-section .author {
     font-size: 18px;
     font-weight: bold;
     text-align: right;
+}
+
+.card {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 90px;
+    border-radius: 10px;
+}
+
+.card-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card button {
+    border-color: white;
+    border-style: solid;
 }
