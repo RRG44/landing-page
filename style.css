@@ -7,7 +7,7 @@ body {
 }
 
 .section {
-    padding: 18px 120px;
+    padding: 48px 120px;
 }
 
 .header, .footer, .introductory-section {
@@ -49,7 +49,6 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 48px 120px;
     gap: 48px;
 }
 
@@ -95,6 +94,7 @@ h1 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin-top: 0;
 }
 
 .information-images {
@@ -121,4 +121,23 @@ h1 {
     border-style: solid;
     width: 200px;
     height: 200px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    font-style: italic;
+}
+
+.quote-section div {
+    padding: 48px;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+}
+
+.quote-section .author {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
 }
